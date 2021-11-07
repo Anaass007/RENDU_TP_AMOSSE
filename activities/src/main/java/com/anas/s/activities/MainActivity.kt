@@ -14,12 +14,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        text = findViewById(R.id.text)
         if (nbClick == 0) {
             text.text = ""
         }
         clickButton = findViewById(R.id.btn_click_me)
         computeButton = findViewById(R.id.btn_compute)
-        text = findViewById(R.id.text)
         clickButton.setOnClickListener {
             nbClick++
             val newText = "Cliquez moi $nbClick"
