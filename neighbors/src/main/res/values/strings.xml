@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="button">button</string>
+    <string name="image">image</string>
+    <string name="button_save">Enregistrer</string>
+    <string name="hint_about_me">A propos de moi</string>
+    <string name="hint_website">site web</string>
+    <string name="hint_phone">Télephone</string>
+    <string name="hint_address">Adresse</string>
+    <string name="hint_name">Nom</string>
+    <string name="hint_image">Image</string>
+    <string name="liste_neighbor_toolbar_name">liste des voisins</string>
+    <string name="add_neighbor_toolbar_name">Ajouter des voisins</string>
+</resources>
